@@ -1,0 +1,9 @@
+c:\users\afonso\documents\visual studio 2013\Projects\IMC\IMC\bin\Debug\IMC.exe.config
+c:\users\afonso\documents\visual studio 2013\Projects\IMC\IMC\bin\Debug\IMC.exe
+c:\users\afonso\documents\visual studio 2013\Projects\IMC\IMC\bin\Debug\IMC.pdb
+c:\users\afonso\documents\visual studio 2013\Projects\IMC\IMC\obj\Debug\IMC.csprojResolveAssemblyReference.cache
+c:\users\afonso\documents\visual studio 2013\Projects\IMC\IMC\obj\Debug\IMC.Form1.resources
+c:\users\afonso\documents\visual studio 2013\Projects\IMC\IMC\obj\Debug\IMC.Properties.Resources.resources
+c:\users\afonso\documents\visual studio 2013\Projects\IMC\IMC\obj\Debug\IMC.csproj.GenerateResource.Cache
+c:\users\afonso\documents\visual studio 2013\Projects\IMC\IMC\obj\Debug\IMC.exe
+c:\users\afonso\documents\visual studio 2013\Projects\IMC\IMC\obj\Debug\IMC.pdb
