@@ -1,16 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A2FE35F8-84EE-4689-AB6B-6D3C71471C71}</ProjectGuid>
+    <ProjectGuid>{5BCB1531-76EF-4431-AFC9-CD16E694CF7F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>IMC</RootNamespace>
     <AssemblyName>IMC</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -21,6 +23,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -30,6 +33,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -40,20 +44,58 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calcular.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calcular.Designer.cs">
+      <DependentUpon>Calcular.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="IMC.cs" />
+    <Compile Include="ModeloForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModeloForm.Designer.cs">
+      <DependentUpon>ModeloForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resultados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resultados.Designer.cs">
+      <DependentUpon>Resultados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sobre.Designer.cs">
+      <DependentUpon>Sobre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabela.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabela.Designer.cs">
+      <DependentUpon>Tabela.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Calcular.resx">
+      <DependentUpon>Calcular.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModeloForm.resx">
+      <DependentUpon>ModeloForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -65,6 +107,15 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Resultados.resx">
+      <DependentUpon>Resultados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sobre.resx">
+      <DependentUpon>Sobre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabela.resx">
+      <DependentUpon>Tabela.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -79,25 +130,25 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cal.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\exit.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\female.png" />
+    <None Include="Resources\feminino.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\male.png" />
+    <None Include="Resources\masculino.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ope.png" />
+    <None Include="Resources\calcular.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\table.png" />
+    <None Include="Resources\opcoes.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\developer.png" />
+    <None Include="Resources\about.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabela.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

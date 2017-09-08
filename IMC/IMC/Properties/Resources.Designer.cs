@@ -63,9 +63,9 @@ namespace IMC.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cal {
+        internal static System.Drawing.Bitmap about {
             get {
-                object obj = ResourceManager.GetObject("cal", resourceCulture);
+                object obj = ResourceManager.GetObject("about", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace IMC.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap developer {
+        internal static System.Drawing.Bitmap calcular {
             get {
-                object obj = ResourceManager.GetObject("developer", resourceCulture);
+                object obj = ResourceManager.GetObject("calcular", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace IMC.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap female {
+        internal static System.Drawing.Bitmap feminino {
             get {
-                object obj = ResourceManager.GetObject("female", resourceCulture);
+                object obj = ResourceManager.GetObject("feminino", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace IMC.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap male {
+        internal static System.Drawing.Bitmap masculino {
             get {
-                object obj = ResourceManager.GetObject("male", resourceCulture);
+                object obj = ResourceManager.GetObject("masculino", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace IMC.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ope {
+        internal static System.Drawing.Bitmap opcoes {
             get {
-                object obj = ResourceManager.GetObject("ope", resourceCulture);
+                object obj = ResourceManager.GetObject("opcoes", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace IMC.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap table {
+        internal static System.Drawing.Bitmap tabela {
             get {
-                object obj = ResourceManager.GetObject("table", resourceCulture);
+                object obj = ResourceManager.GetObject("tabela", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

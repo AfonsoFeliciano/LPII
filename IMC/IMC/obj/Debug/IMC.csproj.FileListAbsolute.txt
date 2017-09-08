@@ -1,9 +1,38 @@
-c:\users\afonso\documents\visual studio 2013\Projects\IMC\IMC\bin\Debug\IMC.exe.config
-c:\users\afonso\documents\visual studio 2013\Projects\IMC\IMC\bin\Debug\IMC.exe
-c:\users\afonso\documents\visual studio 2013\Projects\IMC\IMC\bin\Debug\IMC.pdb
-c:\users\afonso\documents\visual studio 2013\Projects\IMC\IMC\obj\Debug\IMC.csprojResolveAssemblyReference.cache
-c:\users\afonso\documents\visual studio 2013\Projects\IMC\IMC\obj\Debug\IMC.Form1.resources
-c:\users\afonso\documents\visual studio 2013\Projects\IMC\IMC\obj\Debug\IMC.Properties.Resources.resources
-c:\users\afonso\documents\visual studio 2013\Projects\IMC\IMC\obj\Debug\IMC.csproj.GenerateResource.Cache
-c:\users\afonso\documents\visual studio 2013\Projects\IMC\IMC\obj\Debug\IMC.exe
-c:\users\afonso\documents\visual studio 2013\Projects\IMC\IMC\obj\Debug\IMC.pdb
+C:\Users\Pedro\Dropbox\LINGUAGENS DE PROGRAMAÇÃO II\Exercicios\Exerc0Nivelamento\IMC\IMC\bin\Debug\IMC.exe.config
+C:\Users\Pedro\Dropbox\LINGUAGENS DE PROGRAMAÇÃO II\Exercicios\Exerc0Nivelamento\IMC\IMC\bin\Debug\IMC.exe
+C:\Users\Pedro\Dropbox\LINGUAGENS DE PROGRAMAÇÃO II\Exercicios\Exerc0Nivelamento\IMC\IMC\bin\Debug\IMC.pdb
+C:\Users\Pedro\Dropbox\LINGUAGENS DE PROGRAMAÇÃO II\Exercicios\Exerc0Nivelamento\IMC\IMC\obj\Debug\IMC.Calcular.resources
+C:\Users\Pedro\Dropbox\LINGUAGENS DE PROGRAMAÇÃO II\Exercicios\Exerc0Nivelamento\IMC\IMC\obj\Debug\IMC.Form1.resources
+C:\Users\Pedro\Dropbox\LINGUAGENS DE PROGRAMAÇÃO II\Exercicios\Exerc0Nivelamento\IMC\IMC\obj\Debug\IMC.ModeloForm.resources
+C:\Users\Pedro\Dropbox\LINGUAGENS DE PROGRAMAÇÃO II\Exercicios\Exerc0Nivelamento\IMC\IMC\obj\Debug\IMC.Properties.Resources.resources
+C:\Users\Pedro\Dropbox\LINGUAGENS DE PROGRAMAÇÃO II\Exercicios\Exerc0Nivelamento\IMC\IMC\obj\Debug\IMC.csproj.GenerateResource.Cache
+C:\Users\Pedro\Dropbox\LINGUAGENS DE PROGRAMAÇÃO II\Exercicios\Exerc0Nivelamento\IMC\IMC\obj\Debug\IMC.exe
+C:\Users\Pedro\Dropbox\LINGUAGENS DE PROGRAMAÇÃO II\Exercicios\Exerc0Nivelamento\IMC\IMC\obj\Debug\IMC.pdb
+C:\Users\Administrador\Desktop\IMC\IMC\bin\Debug\IMC.exe.config
+C:\Users\Administrador\Desktop\IMC\IMC\obj\Debug\IMC.exe
+C:\Users\Administrador\Desktop\IMC\IMC\obj\Debug\IMC.pdb
+C:\Users\Administrador\Desktop\IMC\IMC\bin\Debug\IMC.exe
+C:\Users\Administrador\Desktop\IMC\IMC\bin\Debug\IMC.pdb
+C:\Users\Administrador\Desktop\IMC\IMC\obj\Debug\IMC.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\IMC\IMC\obj\Debug\IMC.Calcular.resources
+C:\Users\Administrador\Desktop\IMC\IMC\obj\Debug\IMC.Form1.resources
+C:\Users\Administrador\Desktop\IMC\IMC\obj\Debug\IMC.ModeloForm.resources
+C:\Users\Administrador\Desktop\IMC\IMC\obj\Debug\IMC.Properties.Resources.resources
+C:\Users\Administrador\Desktop\IMC\IMC\obj\Debug\IMC.Resultados.resources
+C:\Users\Administrador\Desktop\IMC\IMC\obj\Debug\IMC.Sobre.resources
+C:\Users\Administrador\Desktop\IMC\IMC\obj\Debug\IMC.Tabela.resources
+C:\Users\Administrador\Desktop\IMC\IMC\obj\Debug\IMC.csproj.GenerateResource.Cache
+C:\Users\Afonso\Desktop\LPII\IMC\IMC\bin\Debug\IMC.exe.config
+C:\Users\Afonso\Desktop\LPII\IMC\IMC\obj\Debug\IMC.exe
+C:\Users\Afonso\Desktop\LPII\IMC\IMC\obj\Debug\IMC.pdb
+C:\Users\Afonso\Desktop\LPII\IMC\IMC\obj\Debug\IMC.csprojResolveAssemblyReference.cache
+C:\Users\Afonso\Desktop\LPII\IMC\IMC\obj\Debug\IMC.Calcular.resources
+C:\Users\Afonso\Desktop\LPII\IMC\IMC\obj\Debug\IMC.Form1.resources
+C:\Users\Afonso\Desktop\LPII\IMC\IMC\obj\Debug\IMC.ModeloForm.resources
+C:\Users\Afonso\Desktop\LPII\IMC\IMC\obj\Debug\IMC.Properties.Resources.resources
+C:\Users\Afonso\Desktop\LPII\IMC\IMC\obj\Debug\IMC.Resultados.resources
+C:\Users\Afonso\Desktop\LPII\IMC\IMC\obj\Debug\IMC.Sobre.resources
+C:\Users\Afonso\Desktop\LPII\IMC\IMC\obj\Debug\IMC.Tabela.resources
+C:\Users\Afonso\Desktop\LPII\IMC\IMC\obj\Debug\IMC.csproj.GenerateResource.Cache
+C:\Users\Afonso\Desktop\LPII\IMC\IMC\bin\Debug\IMC.exe
+C:\Users\Afonso\Desktop\LPII\IMC\IMC\bin\Debug\IMC.pdb

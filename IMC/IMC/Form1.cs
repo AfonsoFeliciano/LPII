@@ -17,14 +17,27 @@ namespace IMC
             InitializeComponent();
         }
 
-        private void calcularIMCToolStripMenuItem_Click(object sender, EventArgs e)
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
-        //botão sair
-        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
-        {   
-            this.Close();
+
+        private void masculinoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Calcular c = new Calcular(); //classe do form calcular
+            c.MdiParent = this; //definição de child para o form1
+            c.Show(); //abertura sem modal
+            //c.ShowDialog(); //trava a tela até que seja fechada         
+        }
+
+        private void sairToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void calcularImcToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
