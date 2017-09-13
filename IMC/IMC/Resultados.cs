@@ -16,5 +16,16 @@ namespace IMC
         {
             InitializeComponent();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
+        }
+
+        private void Resultados_Load(object sender, EventArgs e)
+        {
+            //criação do resultado foi feito no loading form1
+            dgvResultados.DataSource = dados.dt;
+        }
     }
 }

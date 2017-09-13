@@ -28,13 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.dgvResultados = new System.Windows.Forms.DataGridView();
+            this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvResultados)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.Size = new System.Drawing.Size(186, 37);
             this.label1.Text = "Resultados";
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.dgvResultados);
+            // 
+            // dgvResultados
+            // 
+            this.dgvResultados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvResultados.Location = new System.Drawing.Point(3, 3);
+            this.dgvResultados.Name = "dgvResultados";
+            this.dgvResultados.Size = new System.Drawing.Size(516, 252);
+            this.dgvResultados.TabIndex = 0;
+            this.dgvResultados.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // Resultados
             // 
@@ -43,12 +59,17 @@
             this.ClientSize = new System.Drawing.Size(548, 345);
             this.Name = "Resultados";
             this.Text = "Resultados";
+            this.Load += new System.EventHandler(this.Resultados_Load);
+            this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvResultados)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.DataGridView dgvResultados;
     }
 }

@@ -35,7 +35,6 @@
             // 
             this.label1.Size = new System.Drawing.Size(107, 37);
             this.label1.Text = "Sobre";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Sobre
             // 

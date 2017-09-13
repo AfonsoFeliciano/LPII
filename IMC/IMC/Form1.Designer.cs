@@ -65,7 +65,6 @@
             this.calcularImcToolStripMenuItem.Size = new System.Drawing.Size(118, 57);
             this.calcularImcToolStripMenuItem.Text = "Calcular IMC";
             this.calcularImcToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.calcularImcToolStripMenuItem.Click += new System.EventHandler(this.calcularImcToolStripMenuItem_Click);
             // 
             // masculinoToolStripMenuItem
             // 
@@ -141,6 +140,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculo de IMC";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

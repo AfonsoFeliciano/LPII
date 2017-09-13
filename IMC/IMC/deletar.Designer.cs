@@ -1,6 +1,6 @@
 ﻿namespace IMC
 {
-    partial class Tabela
+    partial class deletar
     {
         /// <summary>
         /// Required designer variable.
@@ -28,25 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1.SuspendLayout();
-            this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.Size = new System.Drawing.Size(191, 37);
-            this.label1.Text = "Tabela IMC";
-            // 
-            // Tabela
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(548, 345);
-            this.Name = "Tabela";
-            this.Text = "tabela";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.ResumeLayout(false);
-
+            this.Text = "deletar";
         }
 
         #endregion

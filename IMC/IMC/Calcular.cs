@@ -22,25 +22,32 @@ namespace IMC
             try
             {   //receber valores do formulário
                 float peso, altura;
+                string nome; //em 1209
                 //verificar se os campos sao vazios
-                if(txtPeso.Text.Equals("") || txtAltura.Text.Equals("")) {
+                if (txtCliente.Text.Equals("") || txtAltura.Text.Equals(""))
+                {
                     MessageBox.Show("Digite os campos corretamente.");
-                    txtPeso.Focus();
-                } else {
+                    txtCliente.Focus();
+                }
+                else
+                {
 
                     peso = float.Parse(txtPeso.Text);
                     altura = float.Parse(txtAltura.Text);
+                    nome = txtCliente.Text; //em 1209
                     IMC imc = new IMC();
-                    imc.calcularImc(peso, altura);
-                    MessageBox.Show(imc.r);
+                    imc.calcularImc(peso, altura, nome); //em1209
+                    //MessageBox.Show(imc.r);
+                    Resultados resultado = new Resultados();
+                    dados.dt = imc.r;
+                    resultado.ShowDialog();
+                    
                 }
 
 
 
             }
             catch (Exception ex) { MessageBox.Show("Ocorreu um erro.\n" + ex.Message); }
-
-            
         }
     }
 }

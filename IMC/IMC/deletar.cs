@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace IMC
 {
-    public partial class Sobre : ModeloForm
+    public partial class deletar : Form
     {
-        public Sobre()
+        public deletar()
         {
             InitializeComponent();
         }

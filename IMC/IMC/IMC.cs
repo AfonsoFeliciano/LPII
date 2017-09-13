@@ -1,53 +1,43 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Data;
 
 namespace IMC
 {
-    class IMC
+    class IMC //metodo construtor
     {
-        private string resultado = "";
-            
-        //construtor da classe
-        public IMC() { }
-        public void calcularImc(float peso, float altura)
+        public DataTable resultado = null;
+        public IMC() { }//construtor da classe
+        //medodo
+        //metodo calcular imc
+        //verificar na tabela
+        public void calcularImc(float peso, float altura, string nome)
         {
-            
-           r = verificarTabela(peso/(altura*altura));
+            r = dados.InserirTabela(nome, (peso / (altura * altura)), verificarTabela(peso / (altura * altura)));
         }
-
         private string verificarTabela(float imc)
         {
-            //processamento aqui.
-            //Abaixo do peso
-            if (imc < 18.5f) 
-               return "Abaixo do peso";
-            
-            //peso normal
-            else if (imc >= 18.5f && imc < 25) 
-                return "Peso Normal";
-    
-            //maior = a 25 e menor que 30
-            //acima do peso
-            else if (imc >=25 && imc < 30)
-                return "acima do peso";
-           
-            //maior que 30
-            //Obeso
+            if (imc < 18.5f)
+                return "Abaixo do peso :(";
+            else if (imc >= 18.5f && imc < 25)
+                return "Peso ideal :)";
+            else if (imc >= 25 && imc < 30)
+                return "Acima do peso :/";
             else
-                return "Obeso";
-            
+                return "Obeso :(";
         }
-
-
-        //geters and seters
-        public string r
+        //propriedade
+        //get
+        //set
+        public DataTable r
         {
-            get { return resultado; }
-            set { resultado = value; }
+            get { return resultado; }//já chama o resultado da operação
+            set { resultado = value; } //passa um valor value
         }
+
     }
 }
+    // verificar tabla menor que 18.5 abaixo do peso *** > 18.5 a =25 peso normal **** > 25 e =30 acima do peso **** acima de 30 obeso
