@@ -7,12 +7,11 @@ using System.Threading.Tasks;
 
 namespace IMC
 {
-    class IMC //metodo construtor
+    class IMC //método construtor
     {
         public DataTable resultado = null;
         public IMC() { }//construtor da classe
-        //medodo
-        //metodo calcular imc
+        //método calcular imc
         //verificar na tabela
         public void calcularImc(float peso, float altura, string nome)
         {
@@ -40,4 +39,4 @@ namespace IMC
 
     }
 }
-    // verificar tabla menor que 18.5 abaixo do peso *** > 18.5 a =25 peso normal **** > 25 e =30 acima do peso **** acima de 30 obeso
+    // verificar tabela menor que 18.5 abaixo do peso *** > 18.5 a = 25 peso normal **** > 25 e = 30 acima do peso **** acima de 30 obeso

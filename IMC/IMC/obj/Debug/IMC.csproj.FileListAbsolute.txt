@@ -50,3 +50,17 @@ C:\Users\afonso.feliciano\Desktop\IMC\IMC\obj\Debug\IMC.Resultados.resources
 C:\Users\afonso.feliciano\Desktop\IMC\IMC\obj\Debug\IMC.Sobre.resources
 C:\Users\afonso.feliciano\Desktop\IMC\IMC\obj\Debug\IMC.Tabela.resources
 C:\Users\afonso.feliciano\Desktop\IMC\IMC\obj\Debug\IMC.csproj.GenerateResource.Cache
+C:\Users\afonso.feliciano\Desktop\LPII\IMC\IMC\bin\Debug\IMC.exe.config
+C:\Users\afonso.feliciano\Desktop\LPII\IMC\IMC\obj\Debug\IMC.exe
+C:\Users\afonso.feliciano\Desktop\LPII\IMC\IMC\obj\Debug\IMC.pdb
+C:\Users\afonso.feliciano\Desktop\LPII\IMC\IMC\bin\Debug\IMC.exe
+C:\Users\afonso.feliciano\Desktop\LPII\IMC\IMC\bin\Debug\IMC.pdb
+C:\Users\afonso.feliciano\Desktop\LPII\IMC\IMC\obj\Debug\IMC.csprojResolveAssemblyReference.cache
+C:\Users\afonso.feliciano\Desktop\LPII\IMC\IMC\obj\Debug\IMC.Calcular.resources
+C:\Users\afonso.feliciano\Desktop\LPII\IMC\IMC\obj\Debug\IMC.Form1.resources
+C:\Users\afonso.feliciano\Desktop\LPII\IMC\IMC\obj\Debug\IMC.ModeloForm.resources
+C:\Users\afonso.feliciano\Desktop\LPII\IMC\IMC\obj\Debug\IMC.Properties.Resources.resources
+C:\Users\afonso.feliciano\Desktop\LPII\IMC\IMC\obj\Debug\IMC.Resultados.resources
+C:\Users\afonso.feliciano\Desktop\LPII\IMC\IMC\obj\Debug\IMC.Sobre.resources
+C:\Users\afonso.feliciano\Desktop\LPII\IMC\IMC\obj\Debug\IMC.Tabela.resources
+C:\Users\afonso.feliciano\Desktop\LPII\IMC\IMC\obj\Debug\IMC.csproj.GenerateResource.Cache

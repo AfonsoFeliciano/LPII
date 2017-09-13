@@ -22,8 +22,8 @@ namespace IMC
             try
             {   //receber valores do formulário
                 float peso, altura;
-                string nome; //em 1209
-                //verificar se os campos sao vazios
+                string nome; 
+                //verificar se os campos são vazios
                 if (txtCliente.Text.Equals("") || txtAltura.Text.Equals(""))
                 {
                     MessageBox.Show("Digite os campos corretamente.");
@@ -34,9 +34,9 @@ namespace IMC
 
                     peso = float.Parse(txtPeso.Text);
                     altura = float.Parse(txtAltura.Text);
-                    nome = txtCliente.Text; //em 1209
+                    nome = txtCliente.Text; 
                     IMC imc = new IMC();
-                    imc.calcularImc(peso, altura, nome); //em1209
+                    imc.calcularImc(peso, altura, nome); 
                     //MessageBox.Show(imc.r);
                     Resultados resultado = new Resultados();
                     dados.dt = imc.r;
