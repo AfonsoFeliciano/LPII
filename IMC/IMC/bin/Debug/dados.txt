@@ -1,0 +1,6 @@
+bryan;0,002768166;Abaixo do peso
+lucas;0,002612245;Abaixo do peso
+fonso;39,19263;Obeso
+Afonso;170,9402;Obeso
+REsultado;50;Obeso
+REsultado;50;Obeso

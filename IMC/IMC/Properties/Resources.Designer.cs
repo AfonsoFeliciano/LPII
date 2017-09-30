@@ -103,6 +103,26 @@ namespace IMC.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Grupo_Prova2 {
+            get {
+                object obj = ResourceManager.GetObject("Grupo-Prova2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images {
+            get {
+                object obj = ResourceManager.GetObject("images", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap masculino {
             get {
                 object obj = ResourceManager.GetObject("masculino", resourceCulture);
@@ -116,6 +136,16 @@ namespace IMC.Properties {
         internal static System.Drawing.Bitmap opcoes {
             get {
                 object obj = ResourceManager.GetObject("opcoes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap photo2 {
+            get {
+                object obj = ResourceManager.GetObject("photo2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

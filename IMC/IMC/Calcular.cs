@@ -16,38 +16,41 @@ namespace IMC
         {
             InitializeComponent();
         }
-
+        /*
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            try
-            {   //receber valores do formulário
+            IMC imc = new IMC();
+            imc.calcularImc(82f, 1.75f);
+            MessageBox.Show(imc.r);
+        }*/
+    
+        
+        private void btnCalcular_Click_1(object sender, EventArgs e)
+        {
+            try 
+            {
                 float peso, altura;
-                string nome; 
-                //verificar se os campos são vazios
-                if (txtCliente.Text.Equals("") || txtAltura.Text.Equals(""))
+                String nome;
+                if (txtCliente.Text.Equals("")||  txtPeso.Text.Equals("") || txtAltura.Text.Equals(""))
                 {
                     MessageBox.Show("Digite os campos corretamente.");
-                    txtCliente.Focus();
+                    txtPeso.Focus();
                 }
-                else
-                {
-
+                else {
                     peso = float.Parse(txtPeso.Text);
                     altura = float.Parse(txtAltura.Text);
-                    nome = txtCliente.Text; 
+                    nome = txtCliente.Text;
                     IMC imc = new IMC();
-                    imc.calcularImc(peso, altura, nome); 
-                    //MessageBox.Show(imc.r);
-                    Resultados resultado = new Resultados();
-                    dados.dt = imc.r;
-                    resultado.ShowDialog();
-                    
+                    imc.calcularImc(peso, altura, nome);
+                    Resultado resultados = new Resultado();
+                    Dados.dt = imc.r;
+                    resultados.ShowDialog();
+
                 }
-
-
-
             }
-            catch (Exception ex) { MessageBox.Show("Ocorreu um erro.\n" + ex.Message); }
+            catch {MessageBox.Show("Ocorreu um erro");}
         }
+
+        
     }
 }

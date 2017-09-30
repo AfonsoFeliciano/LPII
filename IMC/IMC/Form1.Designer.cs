@@ -43,13 +43,14 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.calcularImcToolStripMenuItem,
             this.menu3ToolStripMenuItem,
             this.sairToolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(727, 61);
+            this.menuStrip1.Size = new System.Drawing.Size(747, 61);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -101,6 +102,7 @@
             this.tabelaIMCToolStripMenuItem.Name = "tabelaIMCToolStripMenuItem";
             this.tabelaIMCToolStripMenuItem.Size = new System.Drawing.Size(165, 26);
             this.tabelaIMCToolStripMenuItem.Text = "Tabela IMC";
+            this.tabelaIMCToolStripMenuItem.Click += new System.EventHandler(this.tabelaIMCToolStripMenuItem_Click);
             // 
             // resultadosStripMenuItem1
             // 
@@ -108,6 +110,7 @@
             this.resultadosStripMenuItem1.Name = "resultadosStripMenuItem1";
             this.resultadosStripMenuItem1.Size = new System.Drawing.Size(165, 26);
             this.resultadosStripMenuItem1.Text = "Resultados";
+            this.resultadosStripMenuItem1.Click += new System.EventHandler(this.resultadosStripMenuItem1_Click);
             // 
             // sobreToolStripMenuItem
             // 
@@ -115,6 +118,7 @@
             this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
             this.sobreToolStripMenuItem.Size = new System.Drawing.Size(165, 26);
             this.sobreToolStripMenuItem.Text = "Sobre";
+            this.sobreToolStripMenuItem.Click += new System.EventHandler(this.sobreToolStripMenuItem_Click);
             // 
             // sairToolStripMenuItem1
             // 
@@ -131,7 +135,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(727, 403);
+            this.ClientSize = new System.Drawing.Size(747, 383);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
@@ -139,6 +143,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculo de IMC";
+            this.TransparencyKey = System.Drawing.Color.Blue;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);

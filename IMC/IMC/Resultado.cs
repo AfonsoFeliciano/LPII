@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace IMC
 {
-    public partial class Sobre : ModeloForm
+    public partial class Resultado : ModeloForm
     {
-        public Sobre()
+        public Resultado()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void Resultado_Load(object sender, EventArgs e)
+        {
+            dgvResultados.DataSource = Dados.dt;
+        }
+
+        private void dgvResultados_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
